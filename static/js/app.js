@@ -10,3 +10,13 @@ d3.json(url).then(function(data) {
   console.log(data);
 });
 
+let sampleData;
+let metaData;
+
+let trace = {
+      x: ['name', 'name', 'name'],
+      y: [1, 2, 3],
+      type: 'bar'
+    };
+  
+  Plotly.newPlot('myDiv', data);
